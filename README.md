@@ -39,3 +39,10 @@ Este projeto consiste na modelagem de um banco de dados para gerenciamento de um
 * schema.sql → criação do banco
 * queries.sql → consultas SQL com JOIN e agregações
 
+## 🧪 Exemplos de consultas
+
+```sql
+SELECT l.NomeLivro, a.NomeAutor
+FROM Livros l
+JOIN LivroAutor la ON l.IdLivro = la.IdLivro
+JOIN Autor a ON la.IdAutor = a.IdAutor;
