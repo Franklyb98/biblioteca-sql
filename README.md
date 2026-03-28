@@ -37,3 +37,5 @@ Este projeto consiste na modelagem de um banco de dados para gerenciamento de um
 ## 📁 Arquivos
 
 * schema.sql → criação do banco
+* queries.sql → consultas SQL com JOIN e agregações
+
